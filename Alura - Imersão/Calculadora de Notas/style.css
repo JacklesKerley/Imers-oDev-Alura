@@ -119,6 +119,22 @@ body {
     display: block;
 }
 
-.footer span a img {
+.logo-insta {
     width: 25px;
 }
+
+.logo-linkedin {
+    width: 17px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    margin-left: -2px;
+}
+
+.logo-github {
+    width: 17px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+  
