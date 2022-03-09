@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="http://alura.com.br/" target="_blank">
+            <img src="http://www.alura.com.br/assets/img/home/alura-logo.svg" alt="Logo ALura" class="alura-logo">
+        </a>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" alt="Imersão" class="page-logo">
+    </header>
+    
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+            Descubra a Conversão do Real
+        </p>
+    </div>
+    <div class="form">
+        <label for="moeda">Insira o valor desejado</label><br>
+        <input type="number" id="valor" placeholder="R$"size="2" min="0"><br><br>
+        <button type="submit" onclick="Converter()" class="btn-form">Dólar</button>
+        <button type="submit" onclick="Converter1()" class="btn-form">Euro</button>
+        <button type="submit" onclick="Converter2()" class="btn-form">Bitcoin</button>
+        <h2 id="valorConvertido"></h2>
+    </div>
+
+    <h2 id="valorConvertido"></h2>
+     
+    <a href="#">
+        <div class="whats">
+            <img src="https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-1.png" alt="Whatsapp">
+            <p>Duvídas?</p>
+        </div>
+    </a>
+
+    <footer class="footer">
+        Siga-nos nas redes sociais!
+        <span>
+            <a href="https://www.instagram.com/aluraonline/" target="_blanck"><img src="https://cdn.pixabay.com/photo/2020/11/15/06/18/instagram-logo-5744708_1280.png" alt="instagram"></a>
+        </span>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
