@@ -17,7 +17,7 @@ body {
 	width: 100%;
 	height: 90px;
 	background: rgb(93,98,236);
-    background: linear-gradient(6deg, rgba(93,98,236,1) 0%, rgba(180,55,181,1) 31%, rgba(16,57,126,1) 66%, rgba(16,57,126,1) 99%);
+	background: linear-gradient(6deg, rgba(93,98,236,1) 0%, rgba(180,55,181,1) 31%, rgba(16,57,126,1) 66%, rgba(16,57,126,1) 99%);
 	text-align: center;
 	padding: 10px 0;
 }
@@ -40,9 +40,11 @@ body {
 }
 
 body > img {
-    margin: 10px;
-    width: 400px;
-    height: 200px;
+	margin: 10px;
+   	max-width: 400px;
+	min-width: 4px;
+	max-height: 220px;
+	height: 2,2px;
 }
 
 .whats {
