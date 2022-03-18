@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/11/ghostbusters-mais-alem-1200x900-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  background: rgb(93, 98, 236);
+  background: linear-gradient(6deg,rgba(93, 98, 236, 1) 0%,rgba(180, 55, 181, 1) 31%,rgba(16, 57, 126, 1) 66%,rgba(16, 57, 126, 1) 99%
+  );
+  text-align: center;
+  padding: 10px 0;
+}
+
+.alura-logo {
+  width: 150px;
+}
+
+.page-logo {
+  width: 180px;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+}
+
+.container {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.page-title {
+  color: rgb(93,98,236);
+  text-shadow: 2px 2px 4px black, 0 0 25px white, 0 0 5px darkorchid;
+  letter-spacing: 7px;
+  margin: 2px 0;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin: 15px 0 5px;
+}
+
+#listaFilmes {
+  display: flex;
+  justify-content: center;
+}
+
+.capasFilme > img {
+  max-width: 150px;
+  min-width: auto;
+  max-height: 220px;
+  min-height: auto;
+  margin: 10px 10px 3px;
+}
+
+.form-wrapper {
+  display: block;
+}
+
+.form-wrapper input {
+  border: none;
+  margin: 0 5px 5px;
+  padding: 2px;
+}
+
+.form-wrapper span {
+  display: block;
+}
+
+.form-wrapper button {
+  background: gray;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 2px;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 22px;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.whats {
+  position: absolute;
+  bottom: 47px;
+  right: 40px;
+}
+
+.whats img {
+  width: 55px;
+  height: 55px;
+}
+
+.whats p {
+  display: block;
+  font-size: 15px;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background: rgb(93, 98, 236);
+  background: linear-gradient(6deg,rgba(93, 98, 236, 1) 0%,rgba(180, 55, 181, 1) 31%,rgba(16, 57, 126, 1) 66%,rgba(16, 57, 126, 1) 99%
+  );
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer span {
+  display: block;
+}
+
+.logo-insta {
+  width: 23px;
+}
+
+.logo-linkedin {
+  width: 17px;
+  padding-bottom: 4px;
+  margin-left: -2px;
+}
+
+.logo-github {
+  width: 16px;
+  padding-bottom: 5px;
+  margin-left: 2px;
+  margin-right: 5px;
+}
